@@ -192,3 +192,64 @@
 //	return 0;
 //}
 
+////判断一个数是几位数
+//#include<stdio.h>
+//int main()
+//{
+//	int x = 0;
+//	int n = 1;
+//	printf("请输入判断位数的数字\n");
+//	scanf_s("%d", &x);
+//	while (x / 10 > 0)
+//	{
+//		n += 1; //== n=n+1
+//		x /= 10;//== x=x/10
+//	}
+//	printf("您输入的是%d位数", n);
+//	return 0;
+//}
+
+//判断一个数是几位数
+//#include<stdio.h>
+//int main()
+//{
+//	int x;
+//	int n = 0;
+//	printf("请输入想判断位数的数字\n");
+//	scanf_s("%d", &x);
+//	do
+//	{
+//		x /= 10;
+//		n++;
+//	} while (x > 0);
+//	printf("您输入的是%d位数\n", n);
+//	return 0;
+//}
+
+//猜数
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<time.h>
+//int main()
+//{
+//	int n = 0, count = 0;
+//	srand(time(0));
+//	int number = rand()%100+1;
+//	printf("我已经想好了一个1-100的数字\n");
+//	do
+//	{
+//		printf("猜猜我想的数字");
+//		scanf_s("%d", &n);
+//		count++;
+//		if (n > number) 
+//		{
+//			printf("你猜的大了,请你再猜\n");
+//		}
+//		else if (n < number) 
+//		{
+//			printf("你猜的小了，请你再猜\n");
+//		}
+//	} while (n != number);
+//	printf("恭喜你猜对了！您一共猜了%d次\n", count);
+//	return 0;
+//}
