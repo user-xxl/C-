@@ -298,3 +298,42 @@
 //	printf("您输入的数的平均数是%f\n", 1.0 * sum/count);
 //	return 0;
 //}
+
+//逆序输出数字
+//输出的是数字 700 7
+//#include<stdio.h>
+//int main()
+//{
+//	int number;
+//	int m = 0;
+//	int digit = 0;
+//	printf("请输入需要倒序的数字");
+//	scanf_s("%d", &number);
+//	do
+//	{
+//		digit = number % 10;
+//		m = m * 10 + digit;
+//		number /= 10;
+//	} while (number > 0);
+//	printf("%d", m);
+//	return 0;
+//}
+
+//输出的是单个数 700 007
+//#include<stdio.h>
+//int main()
+//{
+//	int number;
+//	int m = 0;
+//	int digit = 0;
+//	printf("请输入需要倒序的数字");
+//	scanf_s("%d", &number);
+//	do
+//	{
+//		digit = number % 10;
+//		m = m * 10 + digit;
+//		number /= 10;
+//		printf("%d", m);
+//	} while (number > 0);	
+//	return 0;
+//}
