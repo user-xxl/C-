@@ -226,7 +226,7 @@
 //	return 0;
 //}
 
-//猜数
+//2022.11.7 猜数
 //#include<stdio.h>
 //#include<stdlib.h>
 //#include<time.h>
@@ -254,7 +254,8 @@
 //	return 0;
 //}
 
-//求平均数
+//2022.11.8 求平均数 
+//1
 //#include<stdio.h>
 //int main()
 //{
@@ -277,6 +278,8 @@
 //	return 0;
 //}
 
+
+//2
 //#include<stdio.h>
 //int main()
 //{
