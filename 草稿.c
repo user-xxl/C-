@@ -253,3 +253,45 @@
 //	printf("恭喜你猜对了！您一共猜了%d次\n", count);
 //	return 0;
 //}
+
+//求平均数
+//#include<stdio.h>
+//int main()
+//{
+//	int count = 0;
+//	int sum = 0;
+//	int n = 0;
+//	int m = 0;
+//	do
+//	{
+//		printf("请输入要求平均数的数");
+//		scanf_s("%d", &n);
+//		if (n != -1)
+//		{
+//			sum = sum + n;
+//			count++;
+//		}
+//	} while (n != -1);
+//	m = sum / count;
+//	printf("您输入的数的平均数是%f\n", 0.1 * m);
+//	return 0;
+//}
+
+//#include<stdio.h>
+//int main()
+//{
+//	int number = 0;
+//	int sum = 0;
+//	int count = 0;
+//	printf("请输入要求平均数的数");
+//	scanf_s("%d", &number);
+//	while (number != -1)
+//	{
+//		count++;
+//		sum += number;
+//		printf("请输入要求平均数的数");
+//		scanf_s("%d", &number);
+//	}
+//	printf("您输入的数的平均数是%f\n", 1.0 * sum/count);
+//	return 0;
+//}
