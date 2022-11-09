@@ -342,12 +342,12 @@
 //#include<stdio.h>
 //int main()
 //{
-//	int i = 1;
+//	//int i = 1;
 //	int m = 1;
 //	int n;
 //	printf("请输入要求阶乘的数");
 //	scanf_s("%d", &n);
-//	for (i = 1;i <= n; i++)
+//	for (int i = 1;i <= n; i++)
 //	{
 //		m *= i;
 //	}
