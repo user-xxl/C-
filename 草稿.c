@@ -354,3 +354,61 @@
 //	printf("%d", m);
 //	return 0;
 //}
+
+//判断一个数是不是素数
+//break用法
+//#include<stdio.h>
+//int main()
+//{
+//	int x = 0;
+//	int i = 2;
+//	printf("请输入要判断的数\n");
+//	scanf_s("%d", &x);
+//	int isPrime = 1;
+//	for (i = 2; i < x; i++)
+//	{
+//		if (x % i == 0)
+//		{
+//			isPrime = 0;
+//			break;						//直接跳出循环结束循环
+//		}
+//	}
+//	if (isPrime == 1)
+//	{
+//		printf("是素数");
+//	}
+//	else
+//	{
+//		printf("不是素数");
+//	}
+//	return 0;
+//}
+
+//continue用法
+//#include<stdio.h>
+//int main()
+//{
+//	int x = 0;
+//	int i = 2;
+//	printf("请输入要判断的数\n");
+//	scanf_s("%d", &x);
+//	int isPrime = 1;
+//	for (i = 2; i < x; i++)
+//	{
+//		if (x % i == 0)
+//		{
+//			isPrime = 0;
+//			continue;			//如果进入到循环里面，则会遇到continue，就会跳过本次循环下面的语句，从新开始下一轮循环
+//		}
+//		printf("%d\n", i);
+//	}
+//	if (isPrime == 1)
+//	{
+//		printf("是素数");
+//	}
+//	else
+//	{
+//		printf("不是素数");
+//	}
+//	return 0;
+//}
