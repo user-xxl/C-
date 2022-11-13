@@ -355,7 +355,7 @@
 //	return 0;
 //}
 
-//判断一个数是不是素数
+//2022.11.12 判断一个数是不是素数
 //break用法
 //#include<stdio.h>
 //int main()
@@ -413,7 +413,7 @@
 //	return 0;
 //}
 
-//输出100以内的所有素数
+//2022.11.13 输出100以内的所有素数
 // 用while来计数
 //#include<stdio.h>
 //int main()
@@ -503,5 +503,68 @@
 //			printf("\n");
 //		}
 //	} while (count != 50);
+//	return 0;
+//}
+
+
+//用1角 2角 5角 凑指定的钱数
+// 用接力break来跳出循环
+//#include<stdio.h>
+//int main()
+//{
+//	int y1, y2, y3;
+//	int x;
+//	int exit=0;
+//	printf("请输入要换算的钱数\n");
+//	scanf_s("%d", &x);
+//	for (y1 = 0; y1 <= x*10/1; y1++)
+//	{
+//		for (y2 = 0; y2 <= x*10/2; y2++)
+//		{
+//			for (y3 = 0; y3 <= x*10/5; y3++)
+//			{
+//				if (y1 + 2 * y2 + 5 * y3 == x*10)
+//				{
+//					printf("可以用%d个1角 %d个2角 %d个5角来凑\n", y1, y2, y3);
+//					exit = 1;
+//					break;
+//				}
+//				
+//			}
+//			if (exit) //确保是已经输出了 才需要break，而不是运行时经过这里遇到break
+//			break;
+//		}
+//		if (exit)
+//		break;
+//	}
+//	return 0;
+//}
+
+
+//goto 的使用：跳出
+//#include<stdio.h>
+//int main()
+//{
+//	int y1, y2, y3;
+//	int x;
+//	printf("请输入要换算的钱数\n");
+//	scanf_s("%d", &x);
+//	for (y1 = 0; y1 <= x * 10 / 1; y1++)
+//	{
+//		for (y2 = 0; y2 <= x * 10 / 2; y2++)
+//		{
+//			for (y3 = 0; y3 <= x * 10 / 5; y3++)
+//			{
+//				if (y1 + 2 * y2 + 5 * y3 == x * 10)
+//				{
+//					printf("可以用%d个1角 %d个2角 %d个5角来凑\n", y1, y2, y3);
+//					goto out;
+//				}
+//
+//			}
+//		}
+//
+//	}
+//	out:
 //	return 0;
 //}
