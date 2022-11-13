@@ -412,3 +412,96 @@
 //	}
 //	return 0;
 //}
+
+//输出100以内的所有素数
+// 用while来计数
+//#include<stdio.h>
+//int main()
+//{
+//	int m = 1;
+//	int i;
+//	int count = 0;
+//	int isprime = 1;//isprime=1 是素数；isprime=0 不是素数；
+//	do 
+//	{
+//		m++;
+//		isprime = 1;
+//		for (i = 2; i < m; i++)
+//		{
+//			if (m % i == 0)
+//			{
+//				isprime = 0;
+//				break;
+//			}		
+//		}	
+//		if (isprime == 1)
+//		{
+//			printf(" %d ", m);
+//			count++;
+//		}
+//		if (count % 5== 0)
+//		{
+//			printf("\n");
+//		}
+//	} while (count<50);
+//	return 0;
+//}
+
+//用break来跳出整个循环
+//#include<stdio.h>
+//int main()
+//{
+//	int m = 1;
+//	int i;
+//	int count = 0;
+//	int isprime = 1;//isprime=1 是素数；isprime=0 不是素数；
+//	do
+//	{
+//		m++;
+//		isprime = 1;
+//		for (i = 2; i < m; i++)
+//		{
+//			if (m % i == 0)
+//			{
+//				isprime = 0;
+//				break;
+//			}
+//		}
+//		if (isprime == 1)
+//		{
+//			printf(" %d ", m);
+//			count++;
+//		}
+//		if (count % 5 == 0)
+//		{
+//			printf("\n");
+//		}
+//		if (count == 50)
+//		{
+//			break;
+//		}
+//	} while (1);
+//	return 0;
+//}
+
+//给50个数分5个一行
+//#include<stdio.h>
+//#include<stdlib.h>
+//#include<time.h>
+//int main()
+//{
+//	int i;
+//	int count = 0;
+//	do
+//	{
+//		srand(time(0));
+//		int m = rand() % 100 + 1;
+//		count++;
+//		printf("%d ", m);
+//		if (count % 5 == 0)
+//		{
+//			printf("\n");
+//		}
+//	} while (count != 50);
+//	return 0;
+//}
