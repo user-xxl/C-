@@ -39,8 +39,8 @@
    		          用这个来直接从一个地方跳到任意地方 特定情况下使用；
                 
 2022.11.14 C文件新增 C语言的数据类型：1、整形（char\short\int\long\longlong）、浮点型(float\double\long double)、指针、逻辑(bool);
-                                    2、怎么判断数据类型的大小：size of(int/short...)这样就能输出不同的数据类型的空间大小;
-                                       char 1byte\short 2byte\int 4byte\long 4byte\long long 8byte\float 4byte\double 8byte;
+                                    2、怎么判断数据类型的大小：size of(int/short...)这样就能输出不同的数据类型的空间大小;64位
+                                       char 1byte\short 2byte\int 4byte\long 8byte\long long 8byte\float 4byte\double 8byte;
                                     3、在printf中输出不同的数据类型需要用到不同的结构
                                        int        printf("%d") scanf_s("%d")
                                        long       printf("%ld") scanf_s("%ld")
