@@ -569,17 +569,17 @@
 //	return 0;
 //}
 
-//不同数据类型大小的计算
-#include<stdio.h>
-int main()
-{
-	int a;
-	a = 6;
-	printf("%d\n", sizeof(int));
-	printf("%d\n", sizeof(a));
-	//sizeof(a++) 在程序运行时整个的sizeof(a++)就被替换为a++所代表的数据类型的值，因此后续输出a的值也不会变
-	return 0;
-}
+//2022.11.14 不同数据类型大小的计算
+//#include<stdio.h>
+//int main()
+//{
+//	int a;
+//	a = 6;
+//	printf("%d\n", sizeof(int));
+//	printf("%d\n", sizeof(a));
+//	//sizeof(a++) 在程序运行时整个的sizeof(a++)就被替换为a++所代表的数据类型的值，因此后续输出a的值也不会变
+//	return 0;
+//}
 //% d：用于 int
 //% ld：用于 long
 //% lld：用于 longlong
