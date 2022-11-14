@@ -41,6 +41,8 @@
 2022.11.14 C文件新增 C语言的数据类型：1、整形（char\short\int\long\longlong）、浮点型(float\double\long double)、指针、逻辑(bool);
                                     2、怎么判断数据类型的大小：size of(int/short...)这样就能输出不同的数据类型的空间大小;64位
                                        char 1byte\short 2byte\int 取决于计算机CPU\long 取决于计算机CPU\long long 8byte\float 4byte\double 8byte;
+				       对于int的大小取决于计算机硬件的构造，它的大小是用来表示CPU和RAM之间通过CAN总线一次所能传递的最大字节数，32位计算机一次
+				       最多能在CPU和RAM中传递4字节，所以这里的int的大小就是4byte；而64位计算机CPU和RAM中就能传递8字节，所以此时的int大小是8byte；
                                     3、在printf中输出不同的数据类型需要用到不同的结构
                                        int        printf("%d") scanf_s("%d")
                                        long       printf("%ld") scanf_s("%ld")
