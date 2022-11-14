@@ -34,9 +34,19 @@
              4、i++和++i的区别
                 i++ 是先把i的值拿去做要做的事，例如赋值，例如判断，然后在对i进行+1；
                 ++i 是先把i=i+1做了，然后在用i去做要做的事，例如赋值，例如判断；
-	     5、goto out;
-		out: 
-   		用这个来直接从一个地方跳到任意地方 特定情况下使用；
+	           5、goto out;
+		            out: 
+   		          用这个来直接从一个地方跳到任意地方 特定情况下使用；
+                
+2022.11.14 C文件新增 C语言的数据类型：1、整形（char\short\int\long\longlong）、浮点型(float\double\long double)、指针、逻辑(bool);
+                                    2、怎么判断数据类型的大小：size of(int/short...)这样就能输出不同的数据类型的空间大小;
+                                       char 1byte\short 2byte\int 4byte\long 4byte\long long 8byte\float 4byte\double 8byte;
+                                    3、在printf中输出不同的数据类型需要用到不同的结构
+                                       int        printf("%d") scanf_s("%d")
+                                       long       printf("%ld") scanf_s("%ld")
+                                       long long  printf("%lld") scanf_s("%lld")
+                                       float      printf("%f") scanf_s("%f")
+                                       double     printf("%f") scanf_s("%lf")
 
 
 
