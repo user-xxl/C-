@@ -575,8 +575,11 @@
 //{
 //	int a;
 //	a = 6;
+//	printf("%d\n", sizeof(char));
+//	printf("%d\n", sizeof(short));
 //	printf("%d\n", sizeof(int));
-//	printf("%d\n", sizeof(a));
+//	printf("%ld\n", sizeof(long));
+//	printf("%d\n", sizeof(long long));
 //	//sizeof(a++) 在程序运行时整个的sizeof(a++)就被替换为a++所代表的数据类型的值，因此后续输出a的值也不会变
 //	return 0;
 //}
@@ -588,3 +591,15 @@
 //double 输入用% lf
 //输出时：
 //float, double都用% f 输出就行了(不太清楚是什么环境下，double 用% lf 会出错)
+
+
+//2022.11.16
+//#include<stdio.h>
+//int main()
+//{
+//	unsigned char i = 255;//unsigned 能够让最高位的符号位不起作用，从而把这个数变成纯二进制数
+//	char n = 255;
+//	int m = 255;
+//	printf("%d %d %d", i,n, m);
+//	return 0;
+//}
