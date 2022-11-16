@@ -603,3 +603,16 @@
 //	printf("%d %d %d", i,n, m);
 //	return 0;
 //}
+
+//判断int 类型最大数
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	while (++a>0)
+//	{
+//		;
+//	}
+//	printf("%d", a-1);
+//	return 0;
+//}
