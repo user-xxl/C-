@@ -616,3 +616,18 @@
 //	printf("%d", a-1);
 //	return 0;
 //}
+
+//2022.11.17 8进制和16进制；
+//#include<stdio.h>
+//int main()
+//{
+//	char i = 012;
+//	int m = 0x12;
+//	int n = 10;
+//	printf("%d %d\n", i, m);
+//	printf("%X\n", n);
+//	printf("%x\n", n);
+//	printf("%o\n", n);
+//	return 0;
+//}
+
