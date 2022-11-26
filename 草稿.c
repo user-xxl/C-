@@ -690,3 +690,13 @@
 //	printf("%c %c", a, b);
 //	return 0;
 //}
+
+//逗号表达式
+//#include<stdio.h>
+//int main()
+//{
+//	int a;
+//	a = (3 + 4, 5 + 6);//(3+4,5+6)会把逗号后面的值算作是整体的值
+//	printf("%d", a);
+//	return 0;
+//}
