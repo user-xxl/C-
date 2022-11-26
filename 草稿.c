@@ -632,13 +632,61 @@
 //}
 
 //2022.11.22
-#include<stdio.h>
-int main()
-{
-	printf("123\ba\n456\n");// \b 在输出中将光标向前移动一位继续输出，所以输出的是12a  456
-	printf("123\t456\n");//\t在输出时类似tab 向后移动固定的距离，所以输出的是 123	456
-	printf("12\t456\n");//                                                    12    456
-	return 0;//  \n 是换行
-}
+//#include<stdio.h>
+//int main()
+//{
+//	printf("123\ba\n456\n");// \b 在输出中将光标向前移动一位继续输出，所以输出的是12a  456
+//	printf("123\t456\n");//\t在输出时类似tab 向后移动固定的距离，所以输出的是 123	456
+//	printf("12\t456\n");//                                                    12    456
+//	return 0;//  \n 是换行
+//}
+
+//scanf_s(%hd 用于输入short类型/%d 用于输入int类型/%ld 用于输入longlong类型)
+//强制类型转换
 
 
+//2022.11.25 _getch() 函数功能
+#include <stdio.h>
+#include <conio.h>
+//int main()
+//{
+//	while (1)
+//	{
+//		int t = _getch();
+//		printf(" ……\n");    //测试每键入一次，打印几次
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	while (1)
+//	{
+//		int tmp = _getch();
+//		int tmp2 = _getch();
+//		printf(" tmp=%d\n tmp2=%d\n", tmp, tmp2);
+//	}
+//	return 0;
+//}
+
+//2022.11.26
+// bool量
+//#include<stdio.h>
+//#include<stdbool.h>
+//int main()
+//{
+//	bool t = true ;
+//	printf("%d", t);//bool 只能输出1或者0
+//	return 0;
+//}
+
+//条件运算符
+//#include<stdio.h>
+//int main()
+//{
+//	char a, b=66;
+//	a=getchar();
+//	(a > b) ? a++ : b++;//如果a的值大于b的值，则a++,否则b++
+//	printf("%c %c", a, b);
+//	return 0;
+//}
