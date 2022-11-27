@@ -700,3 +700,28 @@
 //	printf("%d", a);
 //	return 0;
 //}
+
+//2022.11.27 函数 
+//计算两数之间的所有数的sum
+//#include<stdio.h>
+//
+//void sum(int N1, int N2)
+//{
+//	int I, SUM = 0;
+//	printf("请输入数字\n");
+//	scanf_s("%d %d", &N1, &N2);
+//	for (I = N1; I <= N2; )
+//	{
+//		SUM += I;
+//		I++;
+//	}
+//	printf("%d到%d的和是%d", N1, N2, SUM);
+//}
+//
+//int main()
+//{
+//	int number1=0, number2 = 0;//在调用函数时，需要进入函数的变量需要赋一个初始值
+//	sum(number1, number2);
+//	return 0;
+//}
+
